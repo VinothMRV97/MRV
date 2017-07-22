@@ -1,10 +1,11 @@
 #include<stdio.h>
-void main()
+int main()
 {
 int i=0;
 while(i<5)
 {
 printf("Hello\n");
-i++
+i++;
 }
+  return 0;
 }
