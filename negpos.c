@@ -1,12 +1,12 @@
 #include<stdio.h>
-void main()
+int main()
 {
 int num=5;
 if(num<0)
 {
 printf("neg");
 }
-elseif(num>0)
+else if(num>0)
 {
 printf("pos");
 }
@@ -14,4 +14,5 @@ else
 {
 printf("zero");
 }
+  return 0;
 }
