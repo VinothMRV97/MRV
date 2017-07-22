@@ -1,5 +1,5 @@
 #include<stdio.h>
-void main()
+int main()
 {
 char a;
 scanf("%c",&a);
@@ -9,4 +9,5 @@ printf("alphabet");
 }
 else
 printf("NOT alphabet");
+return 0;
 }
